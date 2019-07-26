@@ -18,6 +18,7 @@ const routes: Routes = [
   { path: 'bus-cardpin', loadChildren: './bus-cardpin/bus-cardpin.module#BusCardpinPageModule' },
   { path: 'taxi-page', loadChildren: './taxi-page/taxi-page.module#TaxiPagePageModule' },
   { path: 'taxi-seats', loadChildren: './taxi-seats/taxi-seats.module#TaxiSeatsPageModule' },
+  { path: 'taxi-driverdetails', loadChildren: './taxi-driverdetails/taxi-driverdetails.module#TaxiDriverdetailsPageModule' },
 
 ];
 
