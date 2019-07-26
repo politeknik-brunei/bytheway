@@ -25,6 +25,7 @@ const routes: Routes = [
   { path: 'taxi-cardpin', loadChildren: './taxi-cardpin/taxi-cardpin.module#TaxiCardpinPageModule' },
   { path: 'watertaxi-page', loadChildren: './watertaxi-page/watertaxi-page.module#WatertaxiPagePageModule' },
   { path: 'watertaxi-geolocation', loadChildren: './watertaxi-geolocation/watertaxi-geolocation.module#WatertaxiGeolocationPageModule' },
+  { path: 'watertaxi-fares', loadChildren: './watertaxi-fares/watertaxi-fares.module#WatertaxiFaresPageModule' },
 
 ];
 
