@@ -27,6 +27,7 @@ const routes: Routes = [
   { path: 'watertaxi-geolocation', loadChildren: './watertaxi-geolocation/watertaxi-geolocation.module#WatertaxiGeolocationPageModule' },
   { path: 'watertaxi-fares', loadChildren: './watertaxi-fares/watertaxi-fares.module#WatertaxiFaresPageModule' },
   { path: 'watertaxi-qrcode', loadChildren: './watertaxi-qrcode/watertaxi-qrcode.module#WatertaxiQrcodePageModule' },
+  { path: 'watertaxi-cardpin', loadChildren: './watertaxi-cardpin/watertaxi-cardpin.module#WatertaxiCardpinPageModule' },
 
 ];
 
