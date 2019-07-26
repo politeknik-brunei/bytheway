@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'signup-page', loadChildren: './signup-page/signup-page.module#SignupPagePageModule' },
   { path: 'login-page', loadChildren: './login-page/login-page.module#LoginPagePageModule' },
   { path: 'homepage', loadChildren: './homepage/homepage.module#HomepagePageModule' },
+  { path: 'customercare', loadChildren: './customercare/customercare.module#CustomercarePageModule' },
 
 ];
 
