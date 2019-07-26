@@ -21,6 +21,7 @@ const routes: Routes = [
   { path: 'taxi-driverdetails', loadChildren: './taxi-driverdetails/taxi-driverdetails.module#TaxiDriverdetailsPageModule' },
   { path: 'taxi-geolocation', loadChildren: './taxi-geolocation/taxi-geolocation.module#TaxiGeolocationPageModule' },
   { path: 'taxi-fares', loadChildren: './taxi-fares/taxi-fares.module#TaxiFaresPageModule' },
+  { path: 'taxi-qrcode', loadChildren: './taxi-qrcode/taxi-qrcode.module#TaxiQrcodePageModule' },
 
 ];
 
