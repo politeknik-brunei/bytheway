@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'userprofile-page', loadChildren: './userprofile-page/userprofile-page.module#UserprofilePagePageModule' },
   { path: 'bus-page', loadChildren: './bus-page/bus-page.module#BusPagePageModule' },
   { path: 'bus-geolocation', loadChildren: './bus-geolocation/bus-geolocation.module#BusGeolocationPageModule' },
+  { path: 'bus-schedule', loadChildren: './bus-schedule/bus-schedule.module#BusSchedulePageModule' },
 
 ];
 
