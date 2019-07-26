@@ -15,6 +15,7 @@ const routes: Routes = [
   { path: 'bus-schedule', loadChildren: './bus-schedule/bus-schedule.module#BusSchedulePageModule' },
   { path: 'bus-fares', loadChildren: './bus-fares/bus-fares.module#BusFaresPageModule' },
   { path: 'bus-qrcode', loadChildren: './bus-qrcode/bus-qrcode.module#BusQrcodePageModule' },
+  { path: 'bus-cardpin', loadChildren: './bus-cardpin/bus-cardpin.module#BusCardpinPageModule' },
 
 ];
 
