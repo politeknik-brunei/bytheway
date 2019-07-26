@@ -23,6 +23,7 @@ const routes: Routes = [
   { path: 'taxi-fares', loadChildren: './taxi-fares/taxi-fares.module#TaxiFaresPageModule' },
   { path: 'taxi-qrcode', loadChildren: './taxi-qrcode/taxi-qrcode.module#TaxiQrcodePageModule' },
   { path: 'taxi-cardpin', loadChildren: './taxi-cardpin/taxi-cardpin.module#TaxiCardpinPageModule' },
+  { path: 'watertaxi-page', loadChildren: './watertaxi-page/watertaxi-page.module#WatertaxiPagePageModule' },
 
 ];
 
