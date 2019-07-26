@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'bus-qrcode', loadChildren: './bus-qrcode/bus-qrcode.module#BusQrcodePageModule' },
   { path: 'bus-cardpin', loadChildren: './bus-cardpin/bus-cardpin.module#BusCardpinPageModule' },
   { path: 'taxi-page', loadChildren: './taxi-page/taxi-page.module#TaxiPagePageModule' },
+  { path: 'taxi-seats', loadChildren: './taxi-seats/taxi-seats.module#TaxiSeatsPageModule' },
 
 ];
 
