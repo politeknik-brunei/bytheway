@@ -2,8 +2,9 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', loadChildren: './home/home.module#HomePageModule' },  { path: 'splashscreen-page', loadChildren: './splashscreen-page/splashscreen-page.module#SplashscreenPagePageModule' },
+  { path: '', redirectTo: 'homepage', pathMatch: 'full' },
+  // { path: 'home', loadChildren: './home/home.module#HomePageModule' },
+  { path: 'splashscreen-page', loadChildren: './splashscreen-page/splashscreen-page.module#SplashscreenPagePageModule' },
   { path: 'mainloginsignup-page', loadChildren: './mainloginsignup-page/mainloginsignup-page.module#MainloginsignupPagePageModule' },
   { path: 'signup-page', loadChildren: './signup-page/signup-page.module#SignupPagePageModule' },
   { path: 'login-page', loadChildren: './login-page/login-page.module#LoginPagePageModule' },
@@ -28,6 +29,9 @@ const routes: Routes = [
   { path: 'watertaxi-fares', loadChildren: './watertaxi-fares/watertaxi-fares.module#WatertaxiFaresPageModule' },
   { path: 'watertaxi-qrcode', loadChildren: './watertaxi-qrcode/watertaxi-qrcode.module#WatertaxiQrcodePageModule' },
   { path: 'watertaxi-cardpin', loadChildren: './watertaxi-cardpin/watertaxi-cardpin.module#WatertaxiCardpinPageModule' },
+  { path: 'paymentsetting', loadChildren: './paymentsetting/paymentsetting.module#PaymentsettingPageModule' },
+  { path: 'bus-map', loadChildren: './bus-map/bus-map.module#BusMapPageModule' },
+  { path: 'driverhome', loadChildren: './driverhome/driverhome.module#DriverhomePageModule' },
 
 ];
 
